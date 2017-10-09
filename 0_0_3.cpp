@@ -28,4 +28,6 @@ int main() {
   std::list<int>::iterator first2 = l1.begin(), last2 = l1.end();
 
   merge<std::vector<int>::iterator, std::list<int>::iterator, std::vector<int>::iterator>(first1, last1, first2, last2, output);
+  for(int i = 0; i < v2.size(); i++)
+        std::cout << v2[i] << ' ';
 }
